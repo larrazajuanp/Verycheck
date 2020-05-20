@@ -1,0 +1,280 @@
+/* Global Style*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size:1.6rem;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 1.4rem;
+}
+
+/* Nav Styles*/
+nav{
+    min-height: 8vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    color: white;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo{
+    flex: 4 1 40rem;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 2.5rem;
+   
+}
+
+/* Main Style*/
+
+.main-head{
+    
+   /* background: #117F41;*/
+    background: rgb(36, 35, 35);
+   
+}
+
+.main-head #logo{
+    width: 10rem;
+}
+
+/* Seccion Principal*/
+
+.principal{
+    min-height: 90vh;
+    background-image: url('./img/fondo.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 10rem;
+   color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#titulo{
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+}
+
+#titulo-dos{
+    max-width: 50rem;
+    text-align: center;
+    margin-right: 1.5rem;
+}
+
+
+#input-email{
+    margin-top: 2.5rem;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    width: 30rem;
+    border: none;
+    
+}
+
+#CTA{
+    border: #0c522a;
+    background: #0c522a;
+    color: white;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 20rem;
+    margin-top: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+#CTA:hover{
+    background: #0f6635;
+}
+
+
+
+/* Footer */
+
+footer{
+    min-height: 08vh;
+    background: rgb(36, 35, 35);
+    color: white;
+}
+
+footer .texto-footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .menu ul{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.menu ul li{
+   list-style: none;
+}
+a{
+   text-decoration: none;
+   padding: 0 2.5rem;
+   width: 5px;
+}
+
+#twitter{
+   font-size: 2.5rem;
+    color: white;
+   z-index: 1;
+}
+
+#facebook{
+    font-size: 2.5rem;
+    
+    color: white;
+ }
+
+ #linkedin{
+    font-size: 2.5rem;
+    color: white;
+    
+ }
+
+ #twitter:hover{
+    font-size: 2.5rem;
+    color: #00acee;
+    
+ }
+ 
+ #facebook:hover{
+     font-size: 2.5rem;
+     color: #3b5998;
+  }
+ 
+  #linkedin:hover{
+     color: #0e76a8;
+  }
+
+ /* Media queries */
+
+ @media screen and (max-width: 932px){
+    html{
+        font-size: 45%;
+    }
+    nav{
+        text-align: center;
+    }
+    #logo{
+        font-size: 2.8rem;
+    }
+
+    #cuadro{
+        border: 1px solid #117F41;
+        border-radius: 2rem;
+        background: #F6F8FF;
+        min-height: 50vh;
+        width: 90%;
+        margin: auto;
+       
+    }
+
+    #titulo{
+        position: relative;
+        top: -42rem;
+        color: #0c522a;
+        max-width: 90%;
+        margin: auto;
+    }
+
+    #titulo-dos{
+        position: relative;
+        top: -40rem;
+        color: rgb(36, 35, 35);
+        max-width: 85%;
+        margin: auto;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    #input-email{
+        position: relative;
+        top: -38rem;
+        left: -35rem;
+        margin-bottom: 2rem;
+        border: 1px solid #0c522a;
+        width: 80%;
+        text-align: center;
+    }
+
+    #CTA{
+        max-width: 90%;
+        margin: auto;
+        position: relative;
+        top: -38rem;
+        left: -35rem;
+        padding: 1rem 1rem;
+        border-radius: 0.5rem;
+        width: 80%;
+        
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    #input-email{
+        position: relative;
+        top: -38rem;
+        left: 4.25rem;
+        margin-bottom: 2rem;
+        border: 1px solid #0c522a;
+        width: 80%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #CTA{
+        max-width: 90%;
+        margin: auto;
+        position: relative;
+        top: -38rem;
+        left: 4.25rem;
+        padding: 1rem 1rem;
+        border-radius: 0.5rem;
+        width: 80%;
+        
+    }
+}
