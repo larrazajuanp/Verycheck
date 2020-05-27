@@ -15,6 +15,9 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Verycheck, información verificada" />
+    <meta name="keywords" content="verycheck,información,fake news,periodistas," />
+    <meta name="author" content="© 2020 Verycheck" />
     <link rel="icon" href="./img/icono.png">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/dfa8884d75.js" crossorigin="anonymous"></script>
@@ -29,33 +32,25 @@
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+    <section class="main">
+        <section class="principal">
+            <img src="./img/logotipo-blanco.svg" alt="logo">
+            <h1 id="titulo">Despídete de las fake news</h1>
+            <h3 id="titulo-dos">¿Cansado de tanta información y no saber quién dice la verdad?<br> Verycheck es un
+                verificador
+                de información fácil de usar en las noticias y las redes sociales.</h3>
+            <div class="input">
+                <form action="https://formspree.io/myynkvng" method="POST">
+                    <input type="email" name="_replyto" placeholder="info@verycheck.com" id="input-email">
+                    <button type="submit" value="Send" id="CTA" onclick="getEmail()"> Quiero info verificada </button>
+                </form>
+            </div>
 
-    <header class="main-head">
-        <nav>
-            <h1 id="logo">Verycheck</h1>
-            <ul>
-                <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="principal">
-        <div id="cuadro">
-
-        </div>
-        <h1 id="titulo">Despídete de las fake news</h1>
-        <h3 id="titulo-dos">¿Cansado de tanta información y no saber quién dice la verdad?<br> Verycheck es un
-            verificador
-            de información fácil de usar en las noticias y las redes sociales.</h3>
-        <div class="input">
-            <input type="email" name="email" placeholder="info@verycheck.com" id="input-email">
-            <input type="submit" value="Quiero info verificada" id="CTA" onclick="getEmail()">
-        </div>
-
+        </section>
     </section>
     <footer>
         <div class="texto-footer">
-            <h3 id="titulo-footer">Visitános en nuestras redes</h3>
+            <h3 id="titulo-footer">Visítanos en nuestras redes</h3>
         </div>
         <div class="menu">
             <ul>
@@ -63,6 +58,7 @@
                 <li><a href="https://www.facebook.com/Veycheck-114334873608106/" target="_blank" <i
                         class="fab fa-facebook-square" id="facebook"></i></a></li>
                 <li><a href="#" <i class="fab fa-linkedin" id="linkedin"></i></a></li>
+                <li><a href="#" <i class="fab fa-youtube" id="youtube"></i></a></li>
             </ul>
         </div>
     </footer>
