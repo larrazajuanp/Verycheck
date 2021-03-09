@@ -1,4 +1,4 @@
-# Verycheck - Landin Page
+# Verycheck - Landing Page
 
 _Un proyecto de Diseño UX, en el cual decidimos dar un paso adelante y realizar una landing page para que los usuarios se inscriban a nuestro newsletter._
 
